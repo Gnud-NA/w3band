@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3_band</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+
+            <!-- Begin nav -->
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End nav -->
+
+            <!-- Begin search button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+
+        </div>  
+        
+        <!-- Begin slider -->
+        <div class="slider">
+            <div class="text-slider">
+                <h2 class="text-heading">Los Angeles</h2>
+                <div class="text-description">We had the best time playing at Venice Beach!</div>
+            </div>
+        </div>
+
+        <!-- Begin content -->
+        <div id="content">
+            
+            <!-- About section -->
+            <div class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="sub-section-heading">We love music</p>
+                <p class="section-description">We have created a fictional band website.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="row member-list">
+                    <div class="col col-third member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="col col-third member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="col col-third member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour section -->
+            <div class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading">TOUR DATES</h2>
+                    <p class="sub-section-heading">Remember to book your tickets!</p>
+                    <ul id="book-list">
+                        <li class="month">
+                            September
+                            <span class="sold-out">Sold out</span>   
+                        </li>
+                        <li class="month">
+                            October
+                            <span class="sold-out">Sold out</span>
+                        </li>
+                        <li class="month">
+                            November
+                            <span class="quantity-ticket">3</span>
+                        </li>
+                    </ul>
+                    <!-- Đặt vé -->
+                    <div class="row book-tour">
+                        <div class="col col-third">
+                            <div class="location-img-container">
+                                <img src="./assets/img/book-img/new-york.jpg" alt="" class="location-img">
+                            </div>
+                            <div class="book-content">
+                                <p class="location">New York</p>
+                                <p class="time">Fri 27 Nov 2016</p>
+                                <p class="book-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button onClick="openModel()" class="buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <div class="location-img-container">
+                                <img src="./assets/img/book-img/paris.jpg" alt="" class="location-img">
+                            </div>
+                            <div class="book-content">
+                                <p class="location">Paris</p>
+                                <p class="time">Sat 28 Nov 2016</p>
+                                <p class="book-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button onClick="openModel()" class="buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <div class="location-img-container">
+                                <img src="./assets/img/book-img/sanfran.jpg" alt="" class="location-img">
+                            </div>
+                            <div class="book-content">
+                                <p class="location">San Francisco</p>
+                                <p class="time">Sun 29 Nov 2016</p>
+                                <p class="book-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button onClick="openModel()" class="buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <!-- End tour section -->  
+
+            <div class="contact-section">
+                <div class="content-section">
+                    <h2 class="section-heading">CONTACT</h2>
+                    <p class="sub-section-heading">Fan? Drop a note!</p>
+                    <!-- Contact container include information contact -->
+                    <div class="row contact-container">
+                        <ul class="col col-two band-info">
+                            <li>
+                                <i class="ti-location-pin"></i>
+                                <span> Chicago, US</span>    
+                            </li>
+                            <li>
+                                <i class="ti-mobile"></i>
+                                <span>Phone: +00 151515</span>
+                            </li>
+                            <li>
+                                <i class="ti-email"></i>
+                                <span>Email: mail@mail.com</span>
+                            </li>
+                        </ul>
+                        <div class="col col-two customer-form-info">
+                            <form action="">
+                                <div class="row" style="overflow: hidden;">
+                                    <div class="col col-two">
+                                        <input type="text" class="form-control" placeholder="Name" required>
+                                    </div>
+                                    <div class="col col-two">
+                                        <input type="text" id="email-input" class="form-control" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="row mt-8">
+                                    <div class="col col-full">
+                                        <input type="text" id="message-input" class="form-control" placeholder="Message" required>
+                                    </div>
+                                </div>
+                                <button class="send-customer-info">SEND</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End contact section -->
+        </div>
+        <!-- End content -->
+        <!-- image location/map -->
+        <div class="location-map">
+           <img src="./assets/img/location map/map.jpg" alt="map">
+        </div>
+        <div id="footer">
+            <div class="social-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-github"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter-alt"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">w3.css</a></p>
+        </div>
+    </div>
+    <!-- End main -->
+
+    <div id="model-id" class="model js-model" onclick="closeFunction()" >
+        <div class="model-container js-model-container" onclick="notClose()">
+            <div class="model-header">
+               <span onclick="closeFunction()" class="close-header-x">
+                   <i class="ti-close"></i>
+               </span>
+                <h1 class="model-header-heading">
+                    <i class="ti-bag"></i>
+                    Tickets
+                </h1>
+            </div>
+            <!-- End header -->
+            <div class="model-content">
+                <label class="model-ticket-des" for="how_many">
+                    <span class="cart-ticket-icon">
+                        <i class="ti-shopping-cart-full"></i>
+                    </span>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" id="how_many" class="model-ticket-input" placeholder="How many?">
+                <label class="model-ticket-des" for="sendTo">
+                    <span class="person-sendTo-icon">
+                        <i class="ti-user"></i>
+                    </span>
+                    Send To
+                </label>
+                <input type="text" id="sendTo" class="model-ticket-input" placeholder="Enter email">
+                <button class="sendTo-btn">Pay
+                    <span class="check-icon">
+                        <i class="ti-check"></i>
+                    </span>
+                </button>
+            </div>
+            <!-- End content -->
+            <div class="model-footer">
+                <button class="footer-close-btn" onclick="closeFunction()">
+                    Close 
+                    <span><i class="ti-close" id="footer-close-icon"></i></span>
+                </button>
+                <p class="need-help">Need
+                    <a href="#"> help?</a></p>
+            </div>
+        </div>
+        <!-- End model container -->
+    </div>
+<script>
+    function closeFunction() {
+        document.getElementById("model-id").style.display='none';
+    }
+    function openModel() {
+        document.getElementById("model-id").style.display='block'; 
+        var inputText = document.getElementsByClassName("model-ticket-input");
+        inputText[0].value="";  
+        inputText[1].value="";
+    }
+    function notClose() {
+     event.stopPropagation();   
+    }
+</script>
+</body>
+</html>
